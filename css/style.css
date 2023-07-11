@@ -1,0 +1,177 @@
+body, ul,li, h1,h2,h3,h4
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 760px;
+    background-image: url('../images/b3.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header .navbar
+{
+    padding-top: 25px;
+}
+.header .navbar .mid
+{
+    width: 80%;
+    margin: auto;
+}
+.navbar .menu ul
+{
+    list-style: none;
+}
+.navbar .menu ul li
+{
+    display: inline-block;
+}
+.brand, .menu
+{
+    width: 50%;
+    float: left;
+}
+.brandText, .search
+{
+    width: 50%;
+    float: left;
+}
+.navbar::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+.search
+{
+    margin-top: 20px;
+}
+.menu
+{
+    text-align: right;
+    margin-top: 20px;
+}
+.navbar .menu ul li
+{
+    padding: 0 15px;
+}
+.navbar .menu ul li a
+{
+    text-decoration: none;
+    color: #70d2f2;
+    font-size: 18px;
+}
+.header .brand .brandText h1
+{
+    color: #70d2f2;
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+
+}
+.header .brand .search input
+{
+    height: 25px;
+    width: 250px;
+    outline: none;
+    border: transparent;
+    float: left;
+    border-bottom-left-radius: 10px;
+}
+.header .brand .search button
+{
+    height: 27px;
+    background-color: #008CBA;
+    border: transparent;
+    float: left;
+    border-top-right-radius: 10px;
+}
+.navbar .menu ul .signUp
+{
+    border: 1px solid #70d2f2;
+    padding: 5px 15px;
+}
+
+.navbar .menu ul .signUp:hover
+{
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.welcome .mid 
+{
+    width: 80%;
+    margin: auto;
+    color: #70d2f2;
+}
+.welcome .mid .description
+{
+    width: 45%;
+    float: right;
+    margin-top: 80px;
+}
+.welcome .mid .description h1
+{
+    font-size: 4rem;
+}
+.welcome .mid .description h2
+{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.welcome .mid .description p
+{
+    font-size: 18px;
+    margin: 30px 0;
+}
+.welcome .button button
+{
+    height: 40px;
+    width: 180px;
+    background-color: #4CAF50;
+    border: transparent;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #102259;
+}
+.welcome .button button:hover
+{
+    background-color: #66c269;
+}
+.welcome .button .signIn
+{
+    background-color: transparent;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    margin-left: 20px;
+}
+.welcome .button .signIn:hover
+{
+    background-color: #4CAF50;
+    color: #102259;
+}
+.footerMenu
+{
+    margin-top: 80px;
+}
+.footerMenu ul
+{
+    list-style: none;
+}
+.footerMenu ul li
+{
+    display: inline-block;
+    padding: 0 25px;
+}
+.footerMenu ul li a
+{
+    text-decoration: none;
+    color: #91b5c1;
+    font-size: 40px;
+
+}
+.copyright p
+{
+    margin-left: 25px !important;
+}
